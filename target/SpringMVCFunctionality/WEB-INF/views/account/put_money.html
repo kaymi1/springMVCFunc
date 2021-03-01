@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Put money</title>
+</head>
+<body>
+    <form th:method="POST" th:action="@{/session/put-money}" th:object="${sum}">
+        <label for="sum">Enter sum: </label>
+        <input type="text" th:field="*{sum}" id="sum"/>
+        <br/>
+        <input type="submit" value="Submit!">
+    </form>
+</body>
+</html>

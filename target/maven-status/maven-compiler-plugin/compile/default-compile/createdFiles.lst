@@ -1,0 +1,16 @@
+ru\ivanov\controllers\HelloController.class
+ru\ivanov\controllers\PeopleController.class
+ru\ivanov\models\Account.class
+ru\ivanov\classes\Terminal\User.class
+ru\ivanov\dao\AccountDAO.class
+ru\ivanov\classes\Terminal\TerminalServer.class
+ru\ivanov\classes\Terminal\Terminal.class
+ru\ivanov\classes\Terminal\IncorrectPINException.class
+ru\ivanov\controllers\AccountController.class
+ru\ivanov\dao\PersonDAO.class
+ru\ivanov\classes\Terminal\ShowText.class
+ru\ivanov\classes\Terminal\TerminalImpl.class
+ru\ivanov\models\Person.class
+ru\ivanov\models\Sum.class
+ru\ivanov\classes\Terminal\AccountIsLockedException.class
+ru\ivanov\classes\Terminal\PinValidator.class

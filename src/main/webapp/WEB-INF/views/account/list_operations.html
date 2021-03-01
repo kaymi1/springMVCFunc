@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Operations</title>
+</head>
+<body>
+<div>
+    <p>Operations for:</p>
+    <p th:text="${account.getLogin()}"></p>
+</div>
+<div th:each="operation : ${operations}">
+    <a th:href="@{/session/{operation}(operation=${operation})}" th:text="${operation}">user</a>
+</div>
+
+</body>
+</html>

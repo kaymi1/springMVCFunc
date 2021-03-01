@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Statement</title>
+</head>
+<body>
+<div>
+    <p>Login:</p>
+    <p th:text="${account.getLogin()}"></p>
+</div>
+<div>
+    <p>Cash:</p>
+    <p th:text="${account.getCash()}"></p>
+</div>
+<a href="@{/session/operations)}">Operations</a>
+</body>
+</html>
